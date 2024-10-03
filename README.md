@@ -71,6 +71,8 @@ In this new instance, you need to download and install MySQL Server, create the 
    
 9. Ensure MySQL is running and properly configured on Instance 2
 
+
+
 ## Usage
 
 https://github.com/user-attachments/assets/106f5ab9-d1c6-4d70-af5c-5e3317e178f2
@@ -120,6 +122,40 @@ Client Browser HTML/JS
   +---------------------+
   |  MySQL Database     |
   +---------------------+
+
+## System Architecture
+
+The system has three main components:
+
+1. **Frontend**: 
+   - Built with HTML, CSS, and JavaScript, the frontend allows users to interact with the system. It provides forms for modificating propierties.
+
+2. **Backend**:
+   - Developed with java and Spring Boot, the backend exposes RESTful endpoints for each CRUD operation.
+     
+3. **Database**:
+   - A MySQL database is used to store property information.
+
+## Class Design
+
+### Main Classes
+
+1. **Property**
+   - Attributes: 
+     - `id`: Long 
+     - `address`: String
+     - `price`: Double
+     - `size`: Double
+     - `description`: String
+
+2. **PropertyService**
+   - Responsible for handling business logic related to property management, including CRUD operations.
+
+3. **PropertyController**
+   - Exposes RESTful endpoints for the frontend to interact with the property data.
+
+4. **PropertyRepository**
+   - Interfaces with the database to perform CRUD operations on property listings.
 
 ## Author
 This project was developed by Juan David García Pulido.

@@ -79,7 +79,7 @@ https://github.com/user-attachments/assets/106f5ab9-d1c6-4d70-af5c-5e3317e178f2
 
 ### Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/55a5520b-7f1f-420d-ab11-ac0ec41ebb72)
+![image](https://github.com/user-attachments/assets/d17bdbb3-cb33-4d81-8c79-30b7fbe1095f)
 
 
 ## System Architecture

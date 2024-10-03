@@ -79,49 +79,8 @@ https://github.com/user-attachments/assets/106f5ab9-d1c6-4d70-af5c-5e3317e178f2
 
 ### Architecture Diagram
 
-Client Browser HTML/JS
-       |
-       |  HTTP/HTTPS
-       |
-  +----------------+
-  | EC2 Instance 1 |
-  +----------------+
-       |
-  +----------------+
-  | Spring Boot API|
-  +----------------+
-       |
-  +--------------------+
-  | Property Controller |
-  +--------------------+
-       |
-  +-------------------+
-  |   Service Layer   |
-  +-------------------+
-       |
-  +--------------------+
-  |  Property Service   |
-  +--------------------+
-       |
-  +-------------------+
-  |    Data Access    |
-  +-------------------+
-       |
-  +---------------------+
-  |  Property Repository |
-  +---------------------+
-       |
-  +----------------+
-  |   JPA/Hibernate |
-  +----------------+
-       |
-  +----------------+
-  | EC2 Instance 2 |
-  +----------------+
-       |
-  +---------------------+
-  |  MySQL Database     |
-  +---------------------+
+![image](https://github.com/user-attachments/assets/55a5520b-7f1f-420d-ab11-ac0ec41ebb72)
+
 
 ## System Architecture
 
